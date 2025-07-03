@@ -64,9 +64,7 @@
 		"sdkLink": 1,
 		"useMastercardNewBrand": true,
 		"supportKeyEntry": true,
-		"supportInstallments": false
-		
-		,
+		"supportInstallments": false,
 		"supportTIP": true,
 		"useBenakiTheme": false,
 		"useVodafoneTheme": false,
@@ -89,6 +87,8 @@
 		"localSaleEnabled": true,
 		"preAuthEnabled": true,
 		"freeRefundEnabled": true,
+		"unattendedMode": true,
+                "slaveDeviceEnabled": true,
 		"freeCompletionEnabled": true,
 		"supportPleaseCallMeEnabled": false,
 		"supportOrderThermalRollEnabled": true,

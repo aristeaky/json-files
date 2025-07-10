@@ -73,7 +73,7 @@
     "autoReactivationTimer" : "180",
     "useAutoSettlement" : true,
     "useAutoCloseBatch" : true,
-    "useAutoCloseBatchTimer" : "12:09",
+    "useAutoCloseBatchTimer" : "10:25",
     "useAutoParams" : true,
     "useAutoParamsTimer" : "19:37",	  
       "unattendedMode": true,

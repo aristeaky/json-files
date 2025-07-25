@@ -34,7 +34,7 @@
         "services": []
     },
     "allowTransactions": {
-        "isAllowSalesPayment": false,
+        "isAllowSalesPayment": true,
         "isAllowVoidPayment": false,
         "isAllowRefundPayment": true,
         "isAllowMotoPayment": false

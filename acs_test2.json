@@ -35,7 +35,7 @@
     },
     "allowTransactions": {
         "isAllowSalesPayment": true,
-        "isAllowVoidPayment": true,
+        "isAllowVoidPayment": false,
         "isAllowRefundPayment": true,
         "isAllowMotoPayment": false
     },

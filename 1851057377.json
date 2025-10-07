@@ -11,49 +11,22 @@
 		"cardlinkMerchantType": "100",
 		"terminalID": "71700009",
 		"customerID": "00000000000001",
-		"acqIndetifier": "",
-		"acqName": ""
-	},
-	"multiAcq": {
-		"acquirers": [
-			{
-				"acqIndetifier": "014",
-				"acqName": "ALPHA BANK",
-				"allowLocal" : true,
-				"allowRefund" : true,
-				"allowKeyEntry" :true ,
-				"allowMoto" : false
-			},
-			{
-				"acqIndetifier": "026",
-				"acqName": "WORLDLINE/EUROBANK",
-				"allowLocal" : true,
-				"allowRefund" : true,
-				"allowKeyEntry" : true,
-				 "allowIris": true
-				"allowMoto" : true
-			},
-			{
-				"acqIndetifier": "011",
-				"acqName": "NBG",
-				"allowLocal" : true,
-				"allowRefund" : true,
-				"allowKeyEntry" : true,
-				"allowMoto" : true
-			},
-			{
-				"acqIndetifier": "887",
-				"acqName": "CARDLINK ONE"
-			},
-			{
-				"acqIndetifier": "017",
-				"acqName": "Piraeus"
-			},
-			{
-				"acqIndetifier": "016",
-				"acqName": "Attica"
-			}
-		]
+		 "acqIndetifier" : "026",
+    "acqName" : "WORLDLINE"
+  },
+  "multiAcq" : {
+    "acquirers" : [ {
+      "acqIndetifier" : "026",
+      "acqName" : "WORLDLINE",
+      "allowLocal" : true,
+      "allowPremiumLocal" : false,
+      "allowRefund" : true,
+      "allowKeyEntry" : true,
+      "allowMoto" : true,
+	  "allowIris": true
+      "premiumLocalApprovalCode" : "",
+      "acqTheme" : "possible"
+    } ]
 	},
 	"allowTransactions": {
 		"isAllowSalesPayment": true,
@@ -1798,4 +1771,5 @@
 		}
 	}
 }
+
 

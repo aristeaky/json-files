@@ -30,6 +30,7 @@
 				"allowLocal" : true,
 				"allowRefund" : true,
 				"allowKeyEntry" : true,
+				 "allowIris": true
 				"allowMoto" : true
 			},
 			{
@@ -1797,3 +1798,4 @@
 		}
 	}
 }
+

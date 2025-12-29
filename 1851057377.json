@@ -26,7 +26,7 @@
                 "allowKeyEntry": true,
                 "allowMoto": true,
                 "premiumLocalApprovalCode": "",
-                "acqTheme": "possible",
+                "acqTheme": "worldline",
                 "allowIris": true
             }
         ]
@@ -1443,4 +1443,5 @@
         }
     }
 }
+
 

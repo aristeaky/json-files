@@ -26,7 +26,7 @@
                 "allowKeyEntry": true,
                 "allowMoto": true,
                 "premiumLocalApprovalCode": "",
-                "acqTheme": "mint",
+                "acqTheme": "mcdonalds",
                 "allowIris": true
             }
         ]
@@ -1443,6 +1443,7 @@
         }
     }
 }
+
 
 
 

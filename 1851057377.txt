@@ -23,7 +23,7 @@
 				"allowRefund" : true,
 				"allowKeyEntry" :true ,
 				"allowMoto" : false,
-                 "acqTheme": "mint_dark"
+                 "acqTheme": "dark"
 			},
 			{
 				"acqIndetifier": "026",

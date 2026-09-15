@@ -22,7 +22,8 @@
 				"allowLocal" : true,
 				"allowRefund" : true,
 				"allowKeyEntry" :true ,
-				"allowMoto" : false
+				"allowMoto" : false,
+                 "acqTheme": "possible_dark"
 			},
 			{
 				"acqIndetifier": "026",

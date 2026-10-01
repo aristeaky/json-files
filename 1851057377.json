@@ -96,7 +96,7 @@
       "showEmvDataInReceipt" : false,
       "acquirerBankNameAsBIDSetting" : false,
       "barcodeSetting" : "00",
-      "merchantReceipt" : true,
+      "merchantReceipt" : false,
       "customLogo" : "",
       "dualLogoPrint" : false,
       "cardlinkLogoOnTop" : false,

@@ -91,7 +91,7 @@
       }
     },
     "supportOrderThermalRollEnabled" : true,
-    "displayPaperRollDiscontinueNotification" : false,
+    "displayPaperRollDiscontinueNotification" : true,
     "receiptSettings" : {
       "showEmvDataInReceipt" : false,
       "acquirerBankNameAsBIDSetting" : false,

@@ -1,33 +1,66 @@
 {
-    "merchant": {
-        "merchantCity": "HRAKLEION",
-        "merchantCategoryCode": "7399",
-        "merchantApplicationType": "0",
-        "merchantPostalCode": "14121",
-        "merchantName": "CARDLINK S.A.",
-        "merchantAddress": "Marinou Antypa 41",
-        "merchantTelephone": "210243101",
-        "cardlinkMerchantType": "",
-        "merchantVatNumber": "979703476",
-        "merchantID": "0023839673",
-        "terminalID": "77842320",
-        "customerID": "00000000000001",
-        "acqIndetifier": "",
-        "acqName": ""
+  "merchant" : {
+    "merchantCity" : "HRAKLEION",
+    "merchantCategoryCode" : "5814",
+    "merchantApplicationType" : "0",
+    "merchantPostalCode" : "14121",
+    "merchantName" : "CARDLINK S.A",
+    "merchantAddress" : "Marinou Antypa 41",
+    "merchantTelephone" : "0000000000",
+    "merchantVatNumber" : "979703476",
+    "cardlinkMerchantType" : "",
+    "merchantID" : "0023839673",
+    "terminalID" : "77210995",
+    "customerID" : "00000000000001",
+    "acqIndetifier" : "",
+    "acqName" : ""
   },
   "multiAcq" : {
     "acquirers" : [ {
-      "acqIndetifier" : "014",
-      "acqName" : "NEXI",
+		"acqIndetifier" : "014",
+      "acqName" : "Nexi",
       "allowLocal" : true,
-      "allowPremiumLocal" : false,
+      "allowRefund" : true,
+      "allowKeyEntry" : true,
+      "allowMoto" : true
+	  
+    }, {
+      "acqIndetifier" : "026",
+      "acqName" : "WORLDLINE",
+      "allowLocal" : true,
       "allowRefund" : true,
       "allowKeyEntry" : true,
       "allowMoto" : true,
-      "premiumLocalApprovalCode" : "",
-      "acqTheme" : "possible",
-      "allowIris" : true
-    } ]
+	  "allowIris": true
+	  }, {
+	  "acqIndetifier" : "011",
+      "acqName" : "NBG Pay",
+      "allowLocal" : true,
+      "allowRefund" : true,
+      "allowKeyEntry" : true,
+      "allowMoto" : true
+    }, {
+      "acqIndetifier": "887",
+				"acqName": "CARDLINK ONE",
+                "allowLocal": true,
+                "allowRefund": true,
+                "allowKeyEntry": true,
+                "allowMoto": true
+    }, {
+      "acqIndetifier" : "017",
+      "acqName" : "Piraeus Bank",
+      "allowLocal" : true,
+      "allowRefund" : true,
+      "allowKeyEntry" : false,
+      "allowMoto" : true
+    }, {
+      "acqIndetifier" : "016",
+      "acqName" : "Attica Bank",
+      "allowLocal" : true,
+      "allowRefund" : true,
+      "allowKeyEntry" : true,
+      "allowMoto" : true
+   } ]
   },
   "multiMid" : {
     "services" : [ ]
@@ -43,16 +76,16 @@
     "useMastercardNewBrand" : true,
     "supportKeyEntry" : false,
     "supportInstallments" : false,
-    "supportTIP" : false,
+    "supportTIP" :false,
     "useBenakiTheme" : false,
     "useVodafoneTheme" : false,
     "useSklavenitisTheme" : false,
     "autoReactivationTimer" : "180",
     "useAutoSettlement" : false,
     "useAutoCloseBatch" : true,
-    "useAutoCloseBatchTimer" : "23:33",
+    "useAutoCloseBatchTimer" : "22:34",
     "useAutoParams" : true,
-    "useAutoParamsTimer" : "05:00",
+    "useAutoParamsTimer" : "17:38",
     "alphaBankDCCSupport" : false,
     "alphaBankDCCProfileId" : "19011",
     "alphaBankDCCPartnerId" : "9011",
@@ -69,8 +102,8 @@
     "refundValidationEnabled" : false,
     "localSaleEnabled" : false,
     "isManualAcquirerSelection" : false,
-    "preAuthEnabled" : false,
-    "unattendedMode" : false,
+    "preAuthEnabled" : true,
+    "unattendedMode" : true,
     "slaveDeviceEnabled" : false,
     "mdbManagerEnabled" : false,
     "mdbCreditsAvailable" : 0,
@@ -91,7 +124,7 @@
       }
     },
     "supportOrderThermalRollEnabled" : true,
-    "displayPaperRollDiscontinueNotification" : true,
+    "displayPaperRollDiscontinueNotification" : false,
     "receiptSettings" : {
       "showEmvDataInReceipt" : false,
       "acquirerBankNameAsBIDSetting" : false,
@@ -105,25 +138,27 @@
     "defaultLanguage" : "el"
   },
   "loyaltySettings" : {
-    "alphaBankBonusEnabled" : false,
-    "alphaBankBonusVTid" : "77895780",
-    "alphaBankBonusVMid" : "0025263138",
-    "useAlphaBankBonusBRAmount" : false,
+    "alphaBankBonusEnabled" : true,
+    "alphaBankBonusVTid" : "77210995",
+    "alphaBankBonusVMid" : "0023839673",
+    "useAlphaBankBonusBRAmount" : true,
     "useAlphaBankBonusWithoutOffers" : false,
-    "eurobankEuroepistrofiEnabled" : false,
-    "eurobankEuroepistrofiVTid" : "77895780",
-    "eurobankEuroepistrofiVMid" : "0025263138",
-    "eurobankEuroepistrofiUploadFullRedemption" : false,
-    "nbgGo4MoreEnabled" : false,
+    "eurobankEuroepistrofiEnabled" : true,
+    "eurobankEuroepistrofiVTid" : "77210995",
+    "eurobankEuroepistrofiVMid" : "0023839673",
+    "eurobankEuroepistrofiUploadFullRedemption" : true,
+    "nbgGo4MoreEnabled" : true,
     "nbgGo4MoreVTid" : "",
     "nbgGo4MoreVMid" : "",
-    "pbgYellowEnabled" : false,
-    "pbgYellowVTid" : "",
-    "pbgYellowVMid" : "",
+    "pbgYellowEnabled" : true,
+    "pbgYellowVTid" : "99923870",
+    "pbgYellowVMid" : "140723875",
     "pbgYellowPointsToRedeem" : "2000",
     "cardlinkLoyaltyEnabled" : false,
     "asfalistikosgoneasEnabled" : false,
     "asfalistikosgoneasForceOnline" : false,
+    "loyaltyRedemptionTimeoutEnabled" : true,
+    "loyaltyRedemptionTimeoutSeconds" : 10,
     "sklavenitisPrepaidEnabled" : false
   },
   "ecrSettings" : {
@@ -131,7 +166,7 @@
     "ecrSystemDefaultPort" : 4000,
     "ecrSystemMode" : 0,
     "ecrSystemProtocol" : 0,
-    "ecrVendor" : "0",
+    "ecrVendor" : "2",
     "supportBonusPoolBlock" : false
   },
   "billPayment" : {
@@ -878,7 +913,7 @@
         "allowRefund" : true,
         "floorLimit" : "0",
         "ctlsFloorLimit" : "0",
-        "transactionLimit" : "999999",
+        "transactionLimit" : "99999",
         "cvmRequiredLimit" : "1000",
         "terminalCapabilities" : "E0F8C8",
         "terminalCapabilitiesNoCvm" : "E0F8C8",

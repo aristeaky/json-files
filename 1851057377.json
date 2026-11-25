@@ -26,10 +26,10 @@
       "allowMoto" : true,
       "premiumLocalApprovalCode" : "",
       "acqTheme" : "possible",
-      "allowIris" : false
+      "allowIris" : true
     }, {
-      "acqIndetifier" : "026",
-      "acqName" : "WORLDLINE",
+      "acqIndetifier" : "011",
+      "acqName" : "NBG PAY",
       "allowLocal" : true,
       "allowPremiumLocal" : false,
       "allowRefund" : true,
@@ -37,7 +37,7 @@
       "allowMoto" : true,
       "premiumLocalApprovalCode" : "",
       "acqTheme" : "possible",
-      "allowIris" : true
+      "allowIris" : false
     } ]
   },
   "multiMid" : {
@@ -53,24 +53,24 @@
     "sdkLink" : 1,
     "useMastercardNewBrand" : true,
     "supportKeyEntry" : false,
-    "supportInstallments" : false,
+    "supportInstallments" : true,
     "supportTIP" : false,
     "useBenakiTheme" : false,
     "useVodafoneTheme" : false,
     "useSklavenitisTheme" : false,
     "autoReactivationTimer" : "180",
     "useAutoSettlement" : false,
-    "useAutoCloseBatch" : false,
-    "useAutoCloseBatchTimer" : "00:16",
+    "useAutoCloseBatch" : true,
+    "useAutoCloseBatchTimer" : "23:16",
     "useAutoParams" : true,
-    "useAutoParamsTimer" : "06:43",
-    "alphaBankDCCSupport" : true,
+    "useAutoParamsTimer" : "04:43",
+    "alphaBankDCCSupport" : false,
     "alphaBankDCCProfileId" : "19011",
     "alphaBankDCCPartnerId" : "9011",
     "alphaBankDCCMerchantNumber" : "123419011",
     "alphaBankDCCMinimumAmount" : 100,
-    "euroBankDCCSupport" : true,
-    "nbgAppSelectionEnabled" : false,
+    "euroBankDCCSupport" : false,
+    "nbgAppSelectionEnabled" : true,
     "nbgAppSelectionAcquirerBankId" : "011",
     "cardlinkOneConfiguration" : {
       "accounts" : [ ]
@@ -79,7 +79,7 @@
     "ishceSelectionAcquirerBankId" : "011",
     "refundValidationEnabled" : false,
     "localSaleEnabled" : false,
-    "isManualAcquirerSelection" : true,
+    "isManualAcquirerSelection" : false,
     "preAuthEnabled" : false,
     "unattendedMode" : false,
     "slaveDeviceEnabled" : false,
@@ -92,11 +92,11 @@
     "freeCompletionEnabled" : false,
     "supportPleaseCallMeEnabled" : true,
     "supportConfiguration" : {
-      "id" : "2013",
-      "name" : "Basic",
+      "id" : "2011",
+      "name" : "Premium",
       "details" : {
         "url" : "https://cardlink.gr/support/",
-        "telephone" : "2106303000",
+        "telephone" : "2106303030",
         "email" : "support@cardlink.gr",
         "callMe" : "support@cardlink.gr"
       }
@@ -116,18 +116,18 @@
     "defaultLanguage" : "el"
   },
   "loyaltySettings" : {
-    "alphaBankBonusEnabled" : false,
-    "alphaBankBonusVTid" : "77263343",
-    "alphaBankBonusVMid" : "0024655888",
-    "useAlphaBankBonusBRAmount" : false,
+    "alphaBankBonusEnabled" : true,
+    "alphaBankBonusVTid" : "77263043",
+    "alphaBankBonusVMid" : "0021267349",
+    "useAlphaBankBonusBRAmount" : true,
     "useAlphaBankBonusWithoutOffers" : false,
-    "eurobankEuroepistrofiEnabled" : true,
-    "eurobankEuroepistrofiVTid" : "77263343",
-    "eurobankEuroepistrofiVMid" : "0024655888",
-    "eurobankEuroepistrofiUploadFullRedemption" : true,
-    "nbgGo4MoreEnabled" : false,
-    "nbgGo4MoreVTid" : "",
-    "nbgGo4MoreVMid" : "",
+    "eurobankEuroepistrofiEnabled" : false,
+    "eurobankEuroepistrofiVTid" : "77263043",
+    "eurobankEuroepistrofiVMid" : "0021267349",
+    "eurobankEuroepistrofiUploadFullRedemption" : false,
+    "nbgGo4MoreEnabled" : true,
+    "nbgGo4MoreVTid" : "30015300",
+    "nbgGo4MoreVMid" : "3445739",
     "pbgYellowEnabled" : false,
     "pbgYellowVTid" : "",
     "pbgYellowVMid" : "",
@@ -142,7 +142,7 @@
     "ecrSystemDefaultPort" : 4000,
     "ecrSystemMode" : 0,
     "ecrSystemProtocol" : 0,
-    "ecrVendor" : "1",
+    "ecrVendor" : "2",
     "supportBonusPoolBlock" : false
   },
   "billPayment" : {

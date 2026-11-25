@@ -47,7 +47,7 @@
     "isAllowSalesPayment" : true,
     "isAllowVoidPayment" : true,
     "isAllowRefundPayment" : true,
-    "isAllowMotoPayment" : false
+    "isAllowMotoPayment" : true
   },
   "applicationSettings" : {
     "sdkLink" : 1,
